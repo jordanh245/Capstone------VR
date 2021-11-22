@@ -21,3 +21,6 @@ Vr Emporium allows the user to view all the top Vr headsets out on the market an
 
 Medium article:  
 - https://medium.com/@jordanharris245/vr-emporium-dad2b333c8f4
+
+Demo to webiste:
+-https://youtu.be/Dde87yRlcQM
