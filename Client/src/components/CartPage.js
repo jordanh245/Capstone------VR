@@ -22,7 +22,10 @@ export default function CartPage(props) {
 				<p> Includes:{product.description}</p>
 				<p>{product.pc}</p>
 				<p>Price: ${product.price}</p>
+			
+		
 			<InfoDivButton onClick={()=> removeFromCart(dispatch, product)}>Remove</InfoDivButton>
+			
 			</InfoDivStyle>
 
 			

@@ -1,12 +1,6 @@
 import React from "react";
 
-// import {
-//   NavBarStyle,
-//   LinkStyle,
-//   IconImage,
-//   ErrorDiv,
-//   ErrorLink,
-// } from "../styled-components/NavbarStyle";
+
 
 import brand from "../assets/vr-glasses2.png"
 import {
@@ -20,7 +14,7 @@ import {
   IconImage
 } from "../styled-components/NavbarStyle";
 import {connect} from "react-redux"
-// MENU!!!!!
+
 
 function NavLinks(props) {
   

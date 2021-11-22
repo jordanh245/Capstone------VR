@@ -1,6 +1,6 @@
 import React from 'react'
 import error from "../assets/error.png"
-import {ErrorStyle} from "../styled-components/ErrorStyle"
+import {ErrorStyle, ErrorH1} from "../styled-components/ErrorStyle"
 export default function Error() {
 	return (
 		<div>
@@ -8,7 +8,7 @@ export default function Error() {
 			
 			<img src={error} alt=""  width="500px"/>
 		</ErrorStyle>
-		<h1>Oops! This page doesnt exist... </h1>
+		<ErrorH1>Oops! This page doesnt exist... </ErrorH1>
 		
 </div>
 	)

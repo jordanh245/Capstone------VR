@@ -10,7 +10,9 @@ display: grid;
   text-align: justify;
   padding-left: 100px;
   padding-right: 100px;
- 
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
 `;
 
 export const UserDivLeft = styled.div`
@@ -19,7 +21,10 @@ export const UserDivLeft = styled.div`
   height: 400px;
   margin-top: 100px;
   padding: 10px;
- 
+  @media screen and (max-width: 768px) {
+  font-size: 15px;
+	
+  }
 
 `;
 
@@ -56,6 +61,10 @@ box-shadow: 3px 4px 0px 0px #276873;
 	position:relative;
 	top:1px;
 	}
+	@media screen and (max-width: 768px) {
+    margin-top: 140px;
+	
+  }
 	@media screen and (min-width: 320px) and (max-width: 480px) {
 		font-size: 40px;
 	}`
@@ -63,5 +72,9 @@ box-shadow: 3px 4px 0px 0px #276873;
 export const ButtonDiv = styled.div`
 margin-top: 100px;
 margin-right: 100px;
+@media screen and (max-width: 768px) {
+    margin-right: 10px;
+	
+  }
 `
 

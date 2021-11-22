@@ -127,7 +127,7 @@ app.post("/create-checkout-session", async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [
       {
-        price: "price_1JxYjZK9lSkN4PbdutSP8CdV",
+        price: "price_1JyT9QK9lSkN4PbdxlB8RrSe",
         quantity: 1,
       },
     ],
@@ -184,11 +184,12 @@ app.get("/success", async (req, res) => {
 		}
 	  </style>
 	  <body>
-		<div class="card">
-		<div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
-		  
+		<div class="card"> 
+    
+		<div style="border-radius:200px; height:100px; width:200px; background: ; margin:0 auto;">
+		  <h1>Success</h1>
 		</div>
-		  <h1>Success</h1> 
+		  
 		  <p>We received your purchase!<br/> Your order will be shipped shortly!</p>
     
 		</div>

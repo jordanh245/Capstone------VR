@@ -6,7 +6,7 @@ display: grid;
   margin: 1rem;
   padding-bottom: 50px;
   border-bottom: 2px lightgray solid;
-  
+ 
 `
 
 export const InfoDivStyle = styled.div`
@@ -43,6 +43,8 @@ box-shadow: 3px 4px 0px 0px #276873;
 	@media screen and (min-width: 320px) and (max-width: 480px) {
 		font-size: 40px;
 		
+		
+		
 	}
 	`
 
@@ -55,4 +57,13 @@ margin-left: 90px;
 }
 
 `
+
+export const ButtonDiv = styled.div`
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+width: 1000px;
+}
+
+`
+
 

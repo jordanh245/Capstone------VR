@@ -14,3 +14,13 @@ padding-top: 100px;
 }
 
 `
+
+export const ErrorH1 = styled.h1`
+@media screen and (min-width: 320px) and (max-width: 480px) {
+width: 900px;
+	font-size: 50px;
+
+
+}
+
+`

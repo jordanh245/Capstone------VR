@@ -22,6 +22,7 @@ box-shadow: 3px 4px 0px 0px #276873;
 	}
 	@media screen and (min-width: 320px) and (max-width: 480px) {
 		font-size: 40px;
+		margin-left: 320px;
 	}
 	
 `

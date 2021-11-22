@@ -1,54 +1,4 @@
-// import styled from 'styled-components'
-// import { Link } from 'react-router-dom'
 
-// export const NavBarStyle = styled.div`
-
-// background-color: #081119;
-// display: flex;
-// align-items: center;
-// padding: 2px;
-
-
-// @media screen and (min-width: 320px) and (max-width: 480px) {
-// 	width: 906PX;
-// 	font-size: 45px;
-	
-// }
-
-// `
-
-// export const LinkStyle = styled(Link)`
-// text-decoration: none;
-// color: white;
-// width: 10rem;
-
-
-
-
-// `
-
-// export const ErrorLink = styled(Link)`
-// font-size: 50px;
-// text-decoration: none;
-// color: black;
-
-// @media screen and (min-width: 320px) and (max-width: 480px) {
-	
-// 	margin-left: 100px;
-// }
-
-// `
-
-
-// export const ErrorDiv = styled.div`
-// @media screen and (min-width: 320px) and (max-width: 480px) {
-	
-// 	width: 800px;
-// }
-
-
-
-// `
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
@@ -61,6 +11,10 @@ export const Nav = styled.nav`
     align-items: center;
     padding: 0.2rem calc((100vw - 1000px) / 2);
     z-index: 12;
+    @media screen and (min-width: 320px) and (max-width: 480px) {
+    width: 910px;
+  }
+ 
 `;
 export const NavLogo = styled(Link)`
   cursor: pointer;
@@ -68,7 +22,9 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   text-decoration: none;
 
-`;
+`
+
+;
 
 export const NavLink = styled(Link)`
 color: #fff;
@@ -84,6 +40,7 @@ cursor: pointer;
 &:hover {
   color: black;
 }
+
 `;
 export const IconImage = styled.img`
 width: 60px;
@@ -97,6 +54,8 @@ width: 100px;}
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
+  position: absolute;
+ 
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
@@ -106,6 +65,12 @@ export const Bars = styled(FaBars)`
     font-size: 1.8rem;
     cursor: pointer;
   }
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    font-size: 4rem; 
+    transform: translate(890%, 25%);
+  }
+ 
+
 `;
 
 export const NavMenu = styled.div`
@@ -116,6 +81,7 @@ export const NavMenu = styled.div`
   @media screen and (max-width: 768px) {
     display: none;
   }
+ 
 `;
 
 export const NavBtn = styled.nav`
@@ -126,6 +92,7 @@ export const NavBtn = styled.nav`
   @media screen and (max-width: 768px) {
     display: none;
   }
+
 `;
 
 export const NavBtnLink = styled(Link)`
@@ -144,4 +111,5 @@ export const NavBtnLink = styled(Link)`
     background: #fff;
     color: #808080;
   }
+ 
 `;
