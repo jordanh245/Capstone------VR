@@ -1,10 +1,10 @@
 # Vr Emporium
 
-This website was made to fulfill the requirements of our Front End Solo Project.
+This website was made to fulfill the requirements of my Capstone Project.
 
 ## About
 
-Vr Emporium allows the user to view all the top Vr headsets out on the market and add any to their cart.
+Vr Emporium allows the user to view all the top Vr headsets out on the market and add any to their cart so they can experience an simulated a check out process with Stripe api.
 
 
 
@@ -15,7 +15,9 @@ Vr Emporium allows the user to view all the top Vr headsets out on the market an
 - Styled Components
 - React Router
 - Mobile responsive
-
+- Stripe Api
+- Elephant SQL
+- 
 
 Medium article:  
 - https://medium.com/@jordanharris245/vr-emporium-8d0653a3713e
