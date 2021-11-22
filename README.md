@@ -23,4 +23,4 @@ Medium article:
 - https://medium.com/@jordanharris245/vr-emporium-dad2b333c8f4
 
 Demo to webiste:
--https://youtu.be/Dde87yRlcQM
+- https://youtu.be/Dde87yRlcQM
