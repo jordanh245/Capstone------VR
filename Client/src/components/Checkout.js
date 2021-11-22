@@ -125,7 +125,7 @@ import { CheckoutButtonStyle} from "../styled-components/CheckStyle"
 const ProductDisplay = () => (
   <section>
 
-    <form action="/create-checkout-session" method="POST">
+    <form action="http://localhost:3000/create-checkout-session" method="POST">
       <CheckoutButtonStyle type="submit">
         Checkout
       </CheckoutButtonStyle>

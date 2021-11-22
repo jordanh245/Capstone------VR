@@ -1,14 +1,18 @@
 
+
 import React, {useState, useEffect} from 'react'
 
 import { useDispatch } from 'react-redux'
 import { useHistory } from 'react-router';
+
+
+
 export default function Register() {
 	
 const history = useHistory()
-const redirect = () => [
-	history.push("/login")
-]
+
+
+
 const [information, setInformation] = useState({
 	firstname: '',
 	lastname: '',
@@ -40,7 +44,7 @@ const submitForm = async (e) => {
 			password
 		};
 
-		const response = await fetch('/register',
+		const response = await fetch('http://localhost:3000/register',
 		{
 			method: 'POST',
 			headers: {
@@ -49,13 +53,20 @@ const submitForm = async (e) => {
 			body: JSON.stringify(body)
 		
 			
-		});
-
+		},
+		history.push("/login")
+		
+		);
+		
+			
+		 
 	} catch (err) {
 		console.error(err.message);
 	}
-	redirect()
-};
+	
+	  }
+	
+
 
 	
 	
@@ -88,4 +99,3 @@ const submitForm = async (e) => {
 	)
 
 };
-

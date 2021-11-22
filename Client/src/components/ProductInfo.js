@@ -1,5 +1,6 @@
 import React from 'react'
 import {useSelector, useDispatch} from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
 import {addToCart, } from "../actions/Cart-actions"
 import {ProductDivStyle, ProductButtonStyle, Price, InfoDiv, ProductImg, ProductH1} from "../styled-components/ProductStyle"
 

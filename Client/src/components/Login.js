@@ -20,7 +20,7 @@ import "../loginstyle.css"
 
 	const handleLogin = async (e) => {
 		e.preventDefault();
-		const login = await fetch('/login', {
+		const login = await fetch('http://localhost:3000/login', {
 			method: "POST",
 			mode: "cors",
 			headers: {
@@ -57,7 +57,7 @@ import "../loginstyle.css"
         <form className="login-form">
 		<input type="text"  placeholder="Email" 
             onChange={(e) => setLoginInfo({...loginInfo, [e.target.name]:e.target.value})} name="email"/>
-          <input type="text"  placeholder="Password" 
+          <input type="password"  placeholder="Password" 
             onChange={(e) => setLoginInfo({...loginInfo, [e.target.name]:e.target.value})} name="password"/>
           <button onClick={(e)=>handleLogin(e)}>LOGIN</button>
           <p className="message">Not registered? <a href="/register">Create an account</a></p>
