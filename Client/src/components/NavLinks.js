@@ -61,28 +61,7 @@ function NavLinks(props) {
           </>
       );
   };
-//       <NavBarStyle>
-        
-//          {props.isLoggedIn ? null : <LinkStyle to="/login">Login</LinkStyle>}
 
-//         {props.isLoggedIn ? <LinkStyle to="/account">Account</LinkStyle>: null}
-        
-//         <LinkStyle to="/">Home</LinkStyle>
-
-//         <LinkStyle to="/products">Products</LinkStyle>
-
-//         <LinkStyle to="/cart">Cart</LinkStyle>
-
-//         <LinkStyle to="/contact">Contact</LinkStyle>
-
-       
-
-       
-
-//       </NavBarStyle>
-  
-//   );
-// }
 
 
 const mapStateToProps = (state) => {
