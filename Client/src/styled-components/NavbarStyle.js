@@ -35,10 +35,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active {
-  color:black;
+  color:#458F9F;
 }
 &:hover {
-  color: black;
+  color: #458F9F;
 }
 
 `;

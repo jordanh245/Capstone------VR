@@ -29,9 +29,7 @@ function NavLinks(props) {
               <Bars />
   
               <NavMenu>
-              <NavLink to="/" activeStyle>
-                    Home
-                </NavLink>
+             
 
                   <NavLink to="/products" activeStyle>
                       Products

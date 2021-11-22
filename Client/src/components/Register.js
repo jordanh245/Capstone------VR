@@ -2,10 +2,13 @@
 import React, {useState, useEffect} from 'react'
 
 import { useDispatch } from 'react-redux'
+import { useHistory } from 'react-router';
 export default function Register() {
 	
-
-
+const history = useHistory()
+const redirect = () => [
+	history.push("/login")
+]
 const [information, setInformation] = useState({
 	firstname: '',
 	lastname: '',
@@ -45,16 +48,15 @@ const submitForm = async (e) => {
 			},
 			body: JSON.stringify(body)
 		
-		
-		}
-		);
+			
+		});
 
 	} catch (err) {
 		console.error(err.message);
 	}
-	
+	redirect()
 };
-	
+
 	
 	
 	
